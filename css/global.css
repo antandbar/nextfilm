@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+:root {
+    --color-font: whitesmoke;
+    --navbar-size:3rem;
+    --burger-width:1,5rem:
+}
+
+body, html {
+    height: 100%;
+    background-repeat: no-repeat;
+    background: url('../img/fondo_netflix.jpeg') no-repeat center fixed;
+    background-size: 100% 100%;
+
+}
+
+section {
+    padding: 2rem 1rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:  "Playfair Display", "Times New Roman", Garamond, serif; 
+}
+
+a {
+    color: whitesmoke;
+}

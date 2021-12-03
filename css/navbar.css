@@ -1,0 +1,75 @@
+
+
+.navbar {
+    height: var(--navbar-size);
+    width: 100%;
+    top:0;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    padding: 0 0.3rem;
+    z-index: 1;
+
+}
+.navbar .logo {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    padding-right: var(--burger-width);
+}
+.navbar a {
+    text-decoration: none;
+  }
+.navbar .logo a {
+    font-size: 1.60rem;
+    font-weight: bold;
+}
+
+.navbar .burger-label {
+    display: block;
+    width: var(--burger-width);
+    height: 1.44rem;
+    position: relative;
+}
+.navbar .burger-label::before {
+    content: "";
+    box-shadow: 0 0.3rem 0 0 var(--color-font), 
+                0 0.72rem 0 0 var(--color-font), 
+                0 1.14rem 0 0 var(--color-font);
+    width: 1.5rem;
+    height: 0.18rem;
+    position: absolute;
+}
+#burger-checkbox {
+    width: var(--burger-width);
+    height: 1.5rem;
+    margin: 0;
+    display: none;
+}
+#burger-checkbox:checked ~ .navbar-list {
+    display: flex;
+}
+.navbar-list {
+    margin: 0;
+    width: 12rem;
+    background-color: black;
+    color: var(--color-font);
+    list-style-type: none;
+    padding: 0;
+    position: absolute;
+    top:var(--navbar-size);;
+    left: 0;
+    height: calc(100vh - var(--navbar-size));
+    display: none;
+    flex-direction: column;
+    gap: .5rem
+}
+.navbar-list .navbar-item {
+    text-align: left;
+}
+.navbar-list a {
+    margin: 1rem 1rem;
+    width: 100%;
+    display: inline-block;
+    color: var(--color-font);
+}
