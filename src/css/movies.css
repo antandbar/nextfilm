@@ -37,9 +37,119 @@
     margin: 0;
 }
 
-/*#movies-checkbox {
+#movies-checkbox{
     position: absolute;
-    right: 5%;
+    right: 1%;
     top:1%;
+    display: inline;
+    height: 1.5rem;
+    width: 1.5rem;
+    display: none;
+}
 
+.movies-label {
+    position: absolute;
+    font-size: 1.5rem;
+    color:gray;
+    right: 3%;
+    top: 1.5%;
+    height: 1.3rem;
+    width: 1.3rem;
+}
+
+.movies-label-select{
+    position: absolute;
+    font-size: 1.5rem;
+    color:gray;
+    right: 3%;
+    top: 1.5%;
+    height: 1.3rem;
+    width: 1.3rem;
+    display: none;
+}
+
+#movies-checkbox:checked ~ .movies-label-select{
+    display: flex;
+    
+
+}
+#movies-checkbox-robin {
+    position: absolute;
+    right: 1%;
+    top:1%;
+    display: inline;
+    height: 1.5rem;
+    width: 1.5rem;
+    display: none;
+}
+#movies-checkbox-robin:checked ~ .movies-label-select{
+    display: flex;
+}
+#movies-checkbox-thor {
+    position: absolute;
+    right: 1%;
+    top:1%;
+    display: inline;
+    height: 1.5rem;
+    width: 1.5rem;
+    display: none;
+}
+#movies-checkbox-thor:checked ~ .movies-label-select{
+    display: flex;
+}
+#movies-checkbox-blade {
+    position: absolute;
+    right: 1%;
+    top:1%;
+    display: inline;
+    height: 1.5rem;
+    width: 1.5rem;
+    display: none;
+}
+#movies-checkbox-blade:checked ~ .movies-label-select{
+    display: flex;
+}
+#movies-checkbox-blade {
+    position: absolute;
+    right: 1%;
+    top:1%;
+    display: inline;
+    height: 1.5rem;
+    width: 1.5rem;
+    display: none;
+}
+#movies-checkbox-blade:checked ~ .movies-label-select{
+    display: flex;
+}
+#movies-checkbox-capi {
+    position: absolute;
+    right: 1%;
+    top:1%;
+    display: inline;
+    height: 1.5rem;
+    width: 1.5rem;
+    display: none;
+}
+#movies-checkbox-capi:checked ~ .movies-label-select{
+    display: flex;
+}
+#movies-checkbox-iron {
+    position: absolute;
+    right: 1%;
+    top:1%;
+    display: inline;
+    height: 1.5rem;
+    width: 1.5rem;
+    display: none;
+}
+#movies-checkbox-iron:checked ~ .movies-label-select{
+    display: flex;
+}
+
+    
+/*#movies-checkbox:hover .movies-label {
+    cursor:pointer;
 }*/
+
+
+
