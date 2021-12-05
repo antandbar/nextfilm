@@ -1,0 +1,45 @@
+
+.movies-grid {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.movies-item img {
+    filter: grayscale(100%);
+    width: 20rem;
+    height: 30rem;
+    object-fit: right bottom;
+   
+}
+.movies-item:hover img {
+    filter:none
+}
+.movies-item {
+    position: relative;
+}
+.movies-about {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top:70%;
+    background-color: rgba(0, 0, 0, .85);
+    display: flex;
+    opacity: 0;
+}
+.movies-item:hover .movies-about {
+    opacity: 1;
+}
+.content p{
+    font-weight:bold;
+    margin: 0;
+}
+
+/*#movies-checkbox {
+    position: absolute;
+    right: 5%;
+    top:1%;
+
+}*/
