@@ -1,5 +1,3 @@
-
-
 .navbar {
     height: var(--navbar-size);
     width: 100%;
@@ -9,7 +7,6 @@
     align-items: center;
     padding: 0 0.3rem;
     z-index: 1;
-
 }
 .navbar .logo {
     flex: 1;
@@ -28,7 +25,6 @@
 .navbar .burger-label {
     display: block;
     width: var(--burger-width);
-
     height: 1.44rem;
     position: relative;
 }
@@ -73,4 +69,12 @@
     width: 100%;
     display: inline-block;
     color: var(--color-font);
+}
+
+.navbar-list .search {
+    margin: 1rem 1rem;
+    width: 50%;
+    display: inline-block;
+    color: black;
+    
 }

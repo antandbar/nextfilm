@@ -8,12 +8,10 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/global.css">
     <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/search.css">
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/movies.css">
-    <link rel="stylesheet" href="./fonts/style.css">
-    
-    
-
+    <link rel="stylesheet" href="./fonts/style.css">  
 </head>
 <body>
     <nav class="navbar">
@@ -24,14 +22,19 @@
           <a href="#header">Nextfilm</a>
         </span>
         <ul class="navbar-list">
-            <li class="navbar-item"><a href="#">Novedades</a></li>
             <li class="navbar-item"><a href="#movies">Pel&iacute;culas</a></li>
-            <li class="navbar-item"><a href="#">Series</a></li>
-            <li class="navbar-item"><a href="#">Favoritos</a></li>
-            <li class="navbar-item"><a href="#">Formulario de b&uacute;squeda</a></li>
-            <li class="navbar-item"><a href="#">Cerrar sesi&oacute;n</a></li>
+            <li class="navbar-item"><a href="#novelties">Novedades</a></li>
+            <li class="navbar-item"><a href="#series">Series</a></li>
+            <li class="navbar-item"><a href="#favorites">Favoritos</a></li>
+            <li class="navbar-item">
+                <form action="./index.html" method="get">
+                    <input type="search" class="search" placeholder="Buscar">
+                </form>
+            </li>
+            <li class="navbar-item"><a href="#">Cerrar Sesi&oacute;n</a></li>
         </ul>
     </nav>
+        
 
     <header class="header">
         <h1 class="main-title">
@@ -39,8 +42,8 @@
           </h1>
       
           <p class="main-subtitle">
-            Esta es tu plataforma, donde podr&aacute;s ver las &uacute;ltimas peliculas
-            del mercado en alta calidad y sin ning&uacute;n tipo de interrupcines
+            Nextfilm es tu plataforma, donde podr&aacute;s ver las &uacute;ltimas peliculas
+            del mercado en alta calidad y sin ning&uacute;n tipo de interrupciones
           </p>
 
     </header>
@@ -163,7 +166,18 @@
                     </li>
                 </div>
             </div>  
-        </section>      
+        </section>
+        <section id="novelties">
+            <head> <h1>Novedades</h1></head>
+
+        </section>
+        <section id="series">
+            <head> <h1>Series</h1></head>
+        </section>
+        <section id="favorites">
+            <head> <h1>Favoritos</h1></head>
+
+        </section>
     </main>
     <footer>
         &copy; Nextfilm

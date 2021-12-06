@@ -7,15 +7,11 @@
     justify-content: center;
 }
 .movies-item img {
-    filter: grayscale(100%);
     width: 20rem;
     height: 30rem;
     object-fit: right bottom;
-   
 }
-.movies-item:hover img {
-    filter:none
-}
+
 .movies-item {
     position: relative;
 }
@@ -26,12 +22,9 @@
     right: 0;
     top:75%;
     background-color: rgba(0, 0, 0, .85);
-    display: flex;
-    opacity: 0;
+    display: flex;    
 }
-.movies-item:hover .movies-about {
-    opacity: 1;
-}
+
 .content p{
     font-weight:bold;
     margin: 0;
@@ -71,7 +64,6 @@
 #movies-checkbox:checked ~ .movies-label-select{
     display: flex;
     
-
 }
 #movies-checkbox-robin {
     position: absolute;
@@ -151,5 +143,19 @@
     cursor:pointer;
 }*/
 
+@media (min-width: 768px) {
+    .movies-item img {
+        filter: grayscale(100%);
+    }
+    .movies-item:hover .movies-about {
+        opacity: 1;
+    }
+    .movies-item:hover img {
+        filter:none
+    }
+    .movies-about {
+        opacity: 0;
+    }
 
+}
 
