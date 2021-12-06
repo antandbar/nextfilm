@@ -1,0 +1,34 @@
+.header {
+    height: 100vh;
+    position: relative;
+}
+
+.main-title, .main-subtitle{
+    position:absolute ;
+    left: 0;
+    background-color: rgba(0, 0,0, 0.5);
+    padding: 1rem;
+}
+.main-title {
+    bottom: 50%;
+
+}
+.main-subtitle{
+    top:50%;
+    text-shadow: 2px  2px 2px rgba(0, 0,0, 0.5),
+                 2px -2px 2px rgba(0, 0,0, 0.5),
+                -2px  2px 2px rgba(0, 0,0, 0.5),
+                -2px -2px 2px rgba(0, 0,0, 0.5);
+}
+
+@media (min-width: 768px) {
+    .main-title {
+        left: 20%;
+        background-color: transparent;
+    
+    }
+    .main-subtitle{
+        left:20%;
+        background-color: transparent;
+    }
+}
