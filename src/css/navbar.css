@@ -78,3 +78,33 @@
     color: black;
     
 }
+
+@media (min-width: 768px) {
+    .navbar {
+        position: relative;
+    }
+
+    .navbar-list {
+        display: flex;
+        flex-direction: row;
+        height: 4vh;
+        width: 100%;
+        align-items: center;
+        background-color: rgba(80, 80 ,80, 0.5);
+        
+    }
+    .navbar .burger-label {
+        display: none;
+    }
+    .navbar-list .navbar-item {
+        text-align: left; 
+    }
+    
+    .navbar-list .navbar-logout {
+        position: absolute;
+        right: 1%;
+        font-size: 0.8rem;
+    }
+
+
+}

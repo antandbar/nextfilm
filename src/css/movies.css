@@ -156,6 +156,17 @@
     .movies-about {
         opacity: 0;
     }
-
+    .section-title {
+        text-align: center;
+        font-size: 4vh;
+        color: white;
+        text-shadow: .12rem  .12rem .12rem rgba(0, 0,0, 0.5),
+                    .12rem -.12rem .12rem rgba(0, 0,0, 0.5),
+                    -.12rem  .12rem .12rem rgba(0, 0,0, 0.5),
+                    -.12rem -.12rem .12rem rgba(0, 0,0, 0.5);
+        height: 6vh;
+        background-color: rgba(255, 255 ,255, 0.5);
+       
+    }
 }
 

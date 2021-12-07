@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/global.css">
     <link rel="stylesheet" href="./css/navbar.css">
-    <link rel="stylesheet" href="./css/search.css">
     <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/sections.css">
     <link rel="stylesheet" href="./css/movies.css">
     <link rel="stylesheet" href="./fonts/style.css">  
 </head>
@@ -31,17 +31,17 @@
                     <input type="search" class="search" placeholder="Buscar">
                 </form>
             </li>
-            <li class="navbar-item"><a href="#">Cerrar Sesi&oacute;n</a></li>
+            <li class="navbar-item navbar-logout"><a href="#">Cerrar Sesi&oacute;n</a></li>
         </ul>
     </nav>
         
 
-    <header class="header">
-        <h1 class="main-title">
+    <header class="header" id="header">
+        <h1 class="header-title">
             Bienvenido a Nextfilm!
           </h1>
       
-          <p class="main-subtitle">
+          <p class="header-subtitle">
             Nextfilm es tu plataforma, donde podr&aacute;s ver las &uacute;ltimas peliculas
             del mercado en alta calidad y sin ning&uacute;n tipo de interrupciones
           </p>
@@ -50,7 +50,9 @@
 
     <main>
         <section id="movies">
-            <head> <h1>Pel&iacute;culas</h1></head>
+            <head> 
+                <h1 class="section-title">Pel&iacute;culas</h1>
+            </head>
 
 
             <div class="movies-grid">
@@ -168,15 +170,13 @@
             </div>  
         </section>
         <section id="novelties">
-            <head> <h1>Novedades</h1></head>
-
+            <head> <h1 class="section-title">Novedades</h1></head>
         </section>
         <section id="series">
-            <head> <h1>Series</h1></head>
+            <head> <h1 class="section-title">Series</h1></head>
         </section>
         <section id="favorites">
-            <head> <h1>Favoritos</h1></head>
-
+            <head> <h1 class="section-title">Favoritos</h1></head>
         </section>
     </main>
     <footer>

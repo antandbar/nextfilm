@@ -3,17 +3,17 @@
     position: relative;
 }
 
-.main-title, .main-subtitle{
+.header-title, .header-subtitle{
     position:absolute ;
     left: 0;
     background-color: rgba(0, 0,0, 0.5);
     padding: 1rem;
 }
-.main-title {
+.header-title {
     bottom: 50%;
 
 }
-.main-subtitle{
+.header-subtitle{
     top:50%;
     text-shadow: .12rem  .12rem .12rem rgba(0, 0,0, 0.5),
                  .12rem -.12rem .12rem rgba(0, 0,0, 0.5),
@@ -22,12 +22,12 @@
 }
 
 @media (min-width: 768px) {
-    .main-title {
+    .header-title {
         left: 20%;
         background-color: transparent;
     
     }
-    .main-subtitle{
+    .header-subtitle{
         left:20%;
         background-color: transparent;
     }
