@@ -4,42 +4,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Nextfilm-Detail</title>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/global.css">
     <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/sections.css">
     <link rel="stylesheet" href="./css/detail.css">
+    <link rel="stylesheet" href="./css/related-content.css">
+    <link rel="icon" href="./img/favicon-netflix.png">
+    
+
 </head>
 <body>
     <header>
         <nav class="navbar">
             <input type="checkbox" id="burger-checkbox">
             <label for="burger-checkbox" class="burger-label"></label>
-
+    
             <span class="logo">
               <a href="#header">Nextfilm</a>
             </span>
             <ul class="navbar-list">
-                <li class="navbar-item"><a href="#">Novedades</a></li>
-                <li class="navbar-item"><a href="#">Pel&iacute;culas</a></li>
-                <li class="navbar-item"><a href="#">Series</a></li>
-                <li class="navbar-item"><a href="#">Favoritos</a></li>
-                <li class="navbar-item"><a href="#">Formulario de b&uacute;squeda</a></li>
-                <li class="navbar-item"><a href="#">Cerrar sesi&oacute;n</a></li>
+                <li class="navbar-item"><a href="./index.html#movies">Pel&iacute;culas</a></li>
+                <li class="navbar-item"><a href="./index.html#novelties">Novedades</a></li>
+                <li class="navbar-item"><a href="./index.html#series">Series</a></li>
+                <li class="navbar-item"><a href="./index.html#favorites">Favoritos</a></li>
+                <li class="navbar-item">
+                    <form action="./detail.html" method="get">
+                        <input type="search" class="search" placeholder="Buscar">
+                    </form>
+                </li>
+                <li class="navbar-item navbar-logout"><a href="#">Cerrar Sesi&oacute;n</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <section>
             <head>
-                
+                <h1 class="section-title">Detalle de la pel&iacute;cula</h1>
             </head>
             <article>
-                <h1>Pel&iacute;culas</h1>
-                <video class="video" controls autoplay>
+                
+                <video class="video" controls>
                     <source src="./video/no-time-to-die-final-trailer_h480p.mov" type="video/mp4">
                 </video>
-                
+            </article> 
+            <article class="text-ditail">   
                 <dl>
                     <dt>
                         <p>
@@ -65,7 +76,7 @@
                             Felix Leiter, aparece para pedirle ayuda. La misión de 
                             rescatar a un científico secuestrado resulta ser mucho más 
                             arriesgada de lo esperado, y lleva a Bond tras la pista de 
-                            un misterioso villano armado con una nueva y peligrosa tecnología.
+                            un misterioso villano armado con una nueva y peligrosa tecnología
                         </p>
                     </dt>
                     <dt>
@@ -78,23 +89,46 @@
                         </p>
                     </dt>
                     </dl>
+            </article>
+        </section>
+        <section class="section">
+            <head>
+                <h1 class="section-title related-selection-title">Contenido relacionado</h1>
+            </head>
+            <article class="images-grid">
+                
+                    <div class="images-item">
+                        <li>
+                        <img src="./img/Bond-DoctorNo.jpeg" alt="">
+                        </li>
+                    </div>
+                    <div class="images-item">
+                        <li>
+                            <img src="./img/Bond-GoldFinger.jpeg" alt="">
+                        </li>
+                    </div>
+                    <div class="images-item">
+                        <li>
+                            <img src="./img/Bond-Never.jpeg" alt="">
+                        </li>
+                    </div>
+                    <div class="images-item">
+                        <li>
+                            <img src="./img/Bond-octopussy.jpeg" alt="">
+                        </li>
+                    </div>
+                    <div class="images-item">
+                        <li>
+                            <img src="./img/Bond-skyFall.jpeg" alt="">
+                        </li>
+                    </div>
+                    <div class="images-item">
+                        <li>
+                            <img src="./img/Bond-Spectre.jpeg" alt="">
+                        </li>
+                    </div>
                 
             </article>
-       
-        </section>
-        <section>
-            <head>
-                Rejilla
-            </head>
-            <article>
-                <h1>Series</h1>
-                <p>Lorem ipsum <em>dolor</em> sit amet 
-                    consectetur adipisicing elit. Recusandae p
-                    orro aut eaque autem ex nostrum, non a ab magnam. 
-                    Saepe corporis praesentium nihil tempora explicabo veritatis 
-                    animi nemo nam deserunt.</p>
-            </article>
-            <img src="images/no-exito.jpg" alt="Esta imagen no existe">
         </section>
     </main>
     <footer>

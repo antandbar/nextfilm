@@ -1,0 +1,27 @@
+
+.related-selection-title {
+    padding: 0;
+    margin: 0;   
+}
+.images-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+    grid-gap: 0.5rem
+
+}
+
+.images-item img {
+    width: 20rem;
+    height: 30rem;
+  
+}
+.images-item li {
+    list-style-type: none;
+}
+
+@media (min-width: 768px) {
+    /*.images-grid {
+        grid-template-columns: repeat(3, 1fr);
+        
+    }*/
+}
