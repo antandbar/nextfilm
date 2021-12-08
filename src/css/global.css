@@ -10,8 +10,7 @@
 body, html {
     font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
     height: 100%;
-    background-repeat: no-repeat;
-    background: url('../img/fondo_netflix.jpeg') no-repeat center fixed;
+    background: url('../img/fondo_netflix_movil.jpeg') no-repeat center fixed;
     background-size: 100% 100%;
 }
 
@@ -25,4 +24,11 @@ h1, h2, h3, h4, h5, h6 {
 
 a {
     color: var(--color-font);
+}
+@media (min-width: 768px) {
+    body, html {
+        background: url('../img/fondo_netflix.jpeg') no-repeat center fixed;
+        background-size: 100% 100%;
+    }
+
 }

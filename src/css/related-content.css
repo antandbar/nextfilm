@@ -6,8 +6,7 @@
 .images-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
-    grid-gap: 0.5rem
-
+    grid-gap: 0.5rem;
 }
 
 .images-item img {
@@ -20,10 +19,6 @@
 }
 
 @media (min-width: 768px) {
-    /*.images-grid {
-        grid-template-columns: repeat(3, 1fr);
-        
-    }*/
     .images-grid {
         padding: 1rem;
         

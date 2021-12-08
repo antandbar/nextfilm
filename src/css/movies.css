@@ -4,7 +4,8 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: center;
+    justify-content: left;
+    gap: 0.6rem 1.2rem;
 }
 .movies-item img {
     width: 20rem;
@@ -55,7 +56,7 @@
     font-size: 1.5rem;
     color:gray;
     right: 3%;
-    top: 1.5%;
+    top: 1.8%;
     height: 1.3rem;
     width: 1.3rem;
     display: none;
@@ -137,15 +138,9 @@
 #movies-checkbox-iron:checked ~ .movies-label-select{
     display: flex;
 }
-
-    
-/*#movies-checkbox:hover .movies-label {
-    cursor:pointer;
-}*/
-
 @media (min-width: 768px) {
     .movies-item img {
-        filter: grayscale(100%);
+        filter: grayscale(30%);
     }
     .movies-item:hover .movies-about {
         opacity: 1;
