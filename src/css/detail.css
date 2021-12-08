@@ -6,9 +6,15 @@
     width:100%;   
 }
 .text-ditail {
-    background-color: rgba(0, 0,0, 0.8);
-    
+    background-color: rgba(0, 0,0, 0.8);    
 }
 @media (min-width: 768px) {
+    .video-contain {
+        display: flex;
+        justify-content: center;
 
+    }
+    .video {
+        width:70%;  
+    }
 }
