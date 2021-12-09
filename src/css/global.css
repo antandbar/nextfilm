@@ -3,8 +3,14 @@
 
 :root {
     --color-font: whitesmoke;
-    --navbar-size:3rem;
-    --burger-width:1.5rem;
+    --shadow-size: .12rem;
+    --shadow_rgba: rgba(0, 0, 0, 0.5);
+    --navbar-size: 3rem;
+    --section-title: 1.15rem;
+    --chstar-size: 1.5rem;
+    --chstar-position: 1%;
+    --burger-width: 1.5rem;
+    --section-title: 1.15rem;;
 }
 
 body, html {
@@ -29,6 +35,18 @@ a {
     body, html {
         background: url('../img/fondo_netflix.jpeg') no-repeat center fixed;
         background-size: 100% 100%;
+    }
+    .section-title {
+        text-align: center;
+        font-size: 3vh;
+        color: var(--color-font);
+        text-shadow: var(--shadow-size)  var(--shadow-size) var(--shadow-size) var(--shadow_rgba),
+                     var(--shadow-size) - var(--shadow-size) var(--shadow-size) var(--shadow_rgba),
+                   - var(--shadow-size)  var(--shadow-size) var(--shadow-size)  var(--shadow_rgba),
+                   - var(--shadow-size) - var(--shadow-size) var(--shadow-size) var(--shadow_rgba);
+        height: 4.5vh;
+        width: 50%;
+        background-color: rgba(255, 255 ,255, 0.1);
     }
 
 }

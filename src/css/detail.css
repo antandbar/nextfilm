@@ -1,5 +1,5 @@
 .titles-film {
-    font-size: 1.15rem;
+    font-size: --var(--section-title);
     font-weight: bold
 }
 .video {
