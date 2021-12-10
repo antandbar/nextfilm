@@ -2,17 +2,16 @@
     font-size: --var(--section-title);
     font-weight: bold
 }
-.video {
-    width:100%;   
+.video-text {
+    background-color: rgba(0, 0,0, 0.8);
 }
-.text-ditail {
-    background-color: rgba(0, 0,0, 0.8);    
+.video {
+    width:100%; 
 }
 @media (min-width: 768px) {
     .video-contain {
         display: flex;
         justify-content: center;
-
     }
     .video {
         width:70%;  
