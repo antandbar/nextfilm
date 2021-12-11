@@ -28,7 +28,10 @@ width: 50vh;
 position:relative;
 top:12vh;
 background-color: rgba(0, 0,0, 0.8);
-
+}
+section {
+    padding: 0;
+    border: 0;
 }
 .fields, .button .psw-forgot {
     display: flex;
@@ -78,6 +81,7 @@ footer {
     align-items: left;
     left: 1rem;
     bottom: 1rem;
+    font-size: 2vh;
 }
 
 
