@@ -1,8 +1,5 @@
 
 html, body {
-    padding: 0;
-    margin: 0;
-    color:var(--color-font);
     text-align: center;
 }
 section {
@@ -17,21 +14,18 @@ section {
     height: cal(100vh - 2vh);
 }
 .notFound img {
-    width: 30vw;  
- 
+    width: 100%;  
 }
 .notFound h1{
     font-size: 3vh;
 }
 .text {
     margin-bottom: 2vh;
-    height: 50vh;
+    height: 50%;
 }
-
 .notFound h2, h3, h4 {
     font-size: 3vh;
 }
-
 .text a {
     text-decoration: none;
 }
