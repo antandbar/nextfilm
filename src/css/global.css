@@ -5,7 +5,7 @@
     --color-font: whitesmoke;
     --shadow-size: .12rem;
     --shadow_rgba: rgba(0, 0, 0, 0.5);
-    --navbar-size: 3rem;
+    --navbar-size: 8vh;
     --section-title: 1.15rem;
     --chstar-size: 1.5rem;
     --chstar-position: 1%;
@@ -22,9 +22,11 @@ body, html {
 
 footer {
     position: relative;
+    width: 50%;
     align-items: left;
-    left: 1rem;
-    bottom: 2rem;
+    left: 1vh;
+    bottom: 2vh;
+    padding: 1vh;
     font-size: 2vh;
 }
 
@@ -39,6 +41,7 @@ h1, h2, h3, h4, h5, h6 {
 a {
     color: var(--color-font);
 }
+
 @media (min-width: 768px) {
     body, html {
         background: url('../img/fondo_netflix.jpeg') no-repeat center fixed;
@@ -52,7 +55,7 @@ a {
                      var(--shadow-size) - var(--shadow-size) var(--shadow-size) var(--shadow_rgba),
                    - var(--shadow-size)  var(--shadow-size) var(--shadow-size)  var(--shadow_rgba),
                    - var(--shadow-size) - var(--shadow-size) var(--shadow-size) var(--shadow_rgba);
-        height: 4.5vh;
+        height: 5vh;
         width: 50%;
         background-color: rgba(255, 255 ,255, 0.1);
     }

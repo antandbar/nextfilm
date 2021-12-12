@@ -13,7 +13,7 @@
     flex: 1;
     display: flex;
     justify-content: center;
-    padding-right: var(--burger-width);
+    padding-right: var(--burger-width);    
 }
 .navbar a {
     text-decoration: none;
@@ -22,7 +22,6 @@
     font-size: 1.60rem;
     font-weight: bold;
 }
-
 .navbar .burger-label {
     display: block;
     width: var(--burger-width);
@@ -100,12 +99,11 @@
     .navbar-list .navbar-item {
         text-align: left; 
     }
-    
     .navbar-list .navbar-logout {
         position: absolute;
-        right: 1%;
+        right: 2rem;
         font-size: 0.8rem;
+
     }
-
-
+    
 }

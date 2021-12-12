@@ -8,6 +8,10 @@
 .video {
     width:100%; 
 }
+.section-detail {
+    margin-top: 5vh;
+}
+
 @media (min-width: 768px) {
     .video-contain {
         display: flex;

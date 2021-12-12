@@ -2,36 +2,32 @@ body, html {
     height: 100%;
     background: url('../img/fondo_netflix_login.jpeg') no-repeat center fixed;
     background-size: 100% 100%;
-    background-size: cover;    
+    background-size: cover;
 }
-
 .header-login {
-    display: flex;
+    display: grid;
     justify-content: center;
 }
 .header-login-div{
-    width: 50vh;
+    width: 40vh;
     text-align: center;
     position: relative;
     top:12vh;
     background-color: rgba(0, 0,0, 0.8);
     font-size: 3vh;
 }
-
 .body-div {
     display: grid;
     justify-content: center;
+    padding: 0;
+    border: 0;
 }
 .form-div {
 padding:6vh;
-width: 50vh;
+width: 40vh;
 position:relative;
 top:12vh;
 background-color: rgba(0, 0,0, 0.8);
-}
-section {
-    padding: 0;
-    border: 0;
 }
 .fields, .button .psw-forgot {
     display: flex;
@@ -49,13 +45,11 @@ section {
     display: flex;
     justify-content: center;
 }
-
 input[type="email"], input[type="password"] {
     color: black;
     font-size: 2.5vh;
     height: 4.5vh;
     width: 25vh;
-   
 }
 .label-form{
     color: var(--color-font);
@@ -73,8 +67,7 @@ input[type="submit"] {
     background-color: red;
     color: var(--color-font);
     font-weight: bold;
-    font-size: 3vh;
-    
+    font-size: 3vh;   
 }
 footer {
     position: fixed;
@@ -82,6 +75,5 @@ footer {
     left: 1rem;
     bottom: 1rem;
     font-size: 2vh;
+    text-align: left;
 }
-
-
